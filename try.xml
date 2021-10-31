@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entities>
+    <entity>
+        <id>1</id>
+        <name>name</name>
+        <surname>surname</surname>
+    </entity>
+    <entity>
+        <id>1</id>
+        <name>name</name>
+        <surname>surname</surname>
+    </entity>
+    <entity>
+        <id>1</id>
+        <name>name</name>
+        <surname>surname</surname>
+    </entity>
+    <entity>
+        <id>99</id>
+        <name>name98</name>
+        <surname>surname98</surname>
+    </entity>
+</entities>
