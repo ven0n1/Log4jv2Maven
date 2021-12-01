@@ -7,7 +7,10 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.Date;
 import java.util.Objects;
+import java.util.concurrent.atomic.AtomicInteger;
+
 @XmlRootElement(name = Constants.ENTITY)
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Entity {
@@ -23,6 +26,13 @@ public class Entity {
 
     public Entity(long id, String name, String surname) {
         this.id = id;
+        this.name = name;
+        this.surname = surname;
+    }
+
+    public Entity(String name, String surname) {
+        Date date = new Date();
+        this.id = date.getTime();
         this.name = name;
         this.surname = surname;
     }

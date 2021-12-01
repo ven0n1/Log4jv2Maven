@@ -10,4 +10,5 @@ public class Constants {
     public static final String ENTITY_ID = "id";
     public static final String ENTITY_NAME = "name";
     public static final String ENTITY_SURNAME = "surname";
+    public static final String ACTOR = "system";
 }

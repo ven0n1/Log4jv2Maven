@@ -7,5 +7,5 @@ public interface IDataProvider {
     List<Entity> selectEntities();
     void insert(Entity entity);
     void delete(long id);
-    void update(long id, Entity entity);
+    void update(Entity entity);
 }

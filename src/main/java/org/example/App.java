@@ -1,5 +1,6 @@
 package org.example;
 
+import laba3.IDataProvider;
 import laba3.csv.DataProviderCsv;
 import laba3.Entity;
 import org.apache.logging.log4j.Logger;
@@ -13,7 +14,7 @@ import java.util.List;
  */
 public class App {
     private static final Logger logger = LogManager.getLogger(App.class);
-    static DataProviderCsv dpc;
+    static IDataProvider dpc;
     static Entity entity;
     static List<Entity> entities;
 
@@ -54,33 +55,33 @@ public class App {
         }
         logger.info(properties);
          */
-        dpc = new DataProviderCsv();
-        int choice = 2;
-        int id = 1;
-        switch (choice){
-            case 1:
-                for (int i = 0; i < 10; i++) {
-                    entity = new Entity(i, "name " + i, "surname " + i);
-                    dpc.insert(entity);
-                }
-                break;
-            case 3:
-                entity = dpc.getById(id);
-                logger.info(entity);
-                break;
-            case 4:
-                dpc.delete(id);
-                entities = dpc.selectEntities();
-                entities.forEach(logger::info);
-                break;
-            case 5:
-                entity = new Entity(999, "asdasd", "gjghj");
-                dpc.update(id, entity);
-            case 2:
-                entities = dpc.selectEntities();
-                entities.forEach(logger::info);
-                break;
-        }
+//        dpc = new DataProviderCsv();
+//        int choice = 2;
+//        int id = 1;
+//        switch (choice){
+//            case 1:
+//                for (int i = 0; i < 10; i++) {
+//                    entity = new Entity(i, "name " + i, "surname " + i);
+//                    dpc.insert(entity);
+//                }
+//                break;
+//            case 3:
+//                entity = dpc.getById(id);
+//                logger.info(entity);
+//                break;
+//            case 4:
+//                dpc.delete(id);
+//                entities = dpc.selectEntities();
+//                entities.forEach(logger::info);
+//                break;
+//            case 5:
+//                entity = new Entity(999, "asdasd", "gjghj");
+//                dpc.update(entity);
+//            case 2:
+//                entities = dpc.selectEntities();
+//                entities.forEach(logger::info);
+//                break;
+//        }
     }
 
     private static void logBasicSystemInfo() {

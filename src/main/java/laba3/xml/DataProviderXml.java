@@ -107,12 +107,12 @@ public class DataProviderXml implements IDataProvider {
     }
 
     @Override
-    public void update(long id, Entity entity) {
-        Entity en = getById(id);
+    public void update(Entity entity) {
+        Entity en = getById(entity.getId());
         if (en == null){
             return;
         }
-        delete(id);
+        delete(entity.getId());
         insert(entity);
     }
 }
