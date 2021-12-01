@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<entities>
+    <entity>
+        <id>1637153994744</id>
+        <name>nameGetById</name>
+        <surname>surnameGetById</surname>
+    </entity>
+    <entity>
+        <id>1637153995127</id>
+        <name>nameInsert</name>
+        <surname>surnameInsert</surname>
+    </entity>
+    <entity>
+        <id>1637153995133</id>
+        <name>nameSelect</name>
+        <surname>surnameSelect</surname>
+    </entity>
+    <entity>
+        <id>1637153995154</id>
+        <name>nameUpdate98</name>
+        <surname>surnameUpdate98</surname>
+    </entity>
+</entities>
