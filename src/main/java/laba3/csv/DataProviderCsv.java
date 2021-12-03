@@ -1,5 +1,6 @@
 package laba3.csv;
 
+import com.google.gson.Gson;
 import com.opencsv.CSVWriter;
 import com.opencsv.bean.*;
 import com.opencsv.exceptions.*;
@@ -58,6 +59,7 @@ public class DataProviderCsv extends DataProvider {
             entityList = selectEntities();
         }
         entityList.add(entity);
+        saveHistory(getClass().getName(), "insert(Entity entity)", HistoryContent.Status.SUCCESS, new Gson().toJson(entity));
         save(entityList);
     }
 
@@ -70,6 +72,7 @@ public class DataProviderCsv extends DataProvider {
         List<Entity> entityList = selectEntities();
         entityList.removeIf(a -> (a.getId() == id));
         save(entityList);
+        saveHistory(getClass().getName(), "delete(long id)", HistoryContent.Status.SUCCESS, new Gson().toJson(en));
     }
 
     @Override
@@ -102,6 +105,5 @@ public class DataProviderCsv extends DataProvider {
         } catch (IOException | CsvDataTypeMismatchException | CsvRequiredFieldEmptyException e) {
             logger.error(e);
         }
-        saveHistory(getClass().getName(), "save(List<Entity> list)", HistoryContent.Status.SUCCESS);
     }
 }

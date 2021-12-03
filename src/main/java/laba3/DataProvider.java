@@ -22,7 +22,7 @@ public abstract class DataProvider {
 
     abstract public void update(Entity entity);
 
-    public void saveHistory(String className, String methodName, HistoryContent.Status status){
+    public void saveHistory(String className, String methodName, HistoryContent.Status status, String json){
         try (var mongoClient = MongoClients.create("mongodb://localhost:27017")) {
             var database = mongoClient.getDatabase("history");
             try {
@@ -30,7 +30,7 @@ public abstract class DataProvider {
             } catch (MongoCommandException ignored) {
             }
             String date = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss").format(new Date());
-            HistoryContent historyContent = new HistoryContent(className, date, methodName, status);
+            HistoryContent historyContent = new HistoryContent(className, date, methodName, status, json);
             MongoCollection<Document> collection = database.getCollection("historyContent");
             collection.insertOne(Document.parse(new Gson().toJson(historyContent)));
         }

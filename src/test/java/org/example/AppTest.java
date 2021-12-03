@@ -100,7 +100,7 @@ public class AppTest {
                 logger.info("Collection already exists");
             }
             String date = new SimpleDateFormat("yyyy.MM.dd HH:mm:ss").format(new Date());
-            HistoryContent historyContent = new HistoryContent(getClass().toString(), date, "testCreateMongo()", HistoryContent.Status.SUCCESS);
+            HistoryContent historyContent = new HistoryContent(getClass().toString(), date, "testCreateMongo()", HistoryContent.Status.SUCCESS, "asd");
             MongoCollection<Document> collection = database.getCollection("historyContent");
             Gson gson = new Gson();
             collection.insertOne(Document.parse(gson.toJson(historyContent)));
