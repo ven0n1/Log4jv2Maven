@@ -97,7 +97,7 @@ public class AppTest {
 //        }
 //    }
 
-    @Test
+//    @Test
     public void testCreateMongo(){
         try (var mongoClient = MongoClients.create("mongodb://localhost:27017")) {
             logger.info("Insert test");
@@ -115,7 +115,7 @@ public class AppTest {
         }
     }
 
-    @Test
+//    @Test
     public void testReadMongo(){
         try (var mongoClient = MongoClients.create("mongodb://localhost:27017")) {
             var database = mongoClient.getDatabase("history");

@@ -1,7 +1,9 @@
 package laba3.DB;
 
+import com.google.gson.Gson;
 import laba3.DataProvider;
 import laba3.Entity;
+import mongoDB.HistoryContent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -32,16 +34,18 @@ public class DataProviderDB extends DataProvider {
     public static final String selectAll = "SELECT * FROM Entities;";
     public static final String delete = "DELETE FROM Entities WHERE id = %d;";
     public static final String update = "UPDATE Entities SET name = '%s', surname = '%s' WHERE id = %d;";
+    public static final String clear = "TRUNCATE TABLE Entities";
     @Override
     public Entity getById(long id) {
         Entity entity = new Entity();
         statement = getStatement();
         try {
             resultSet = statement.executeQuery(String.format(getId, id));
-            resultSet.next();
-            entity.setId(resultSet.getLong(1));
-            entity.setName(resultSet.getString(2));
-            entity.setSurname(resultSet.getString(3));
+            if (resultSet.next()){
+                entity.setId(resultSet.getLong(1));
+                entity.setName(resultSet.getString(2));
+                entity.setSurname(resultSet.getString(3));
+            }
         } catch (SQLException e) {
             logger.error(e);
         }
@@ -69,8 +73,10 @@ public class DataProviderDB extends DataProvider {
         statement = getStatement();
         try {
             statement.execute(String.format(insert, entity.getId(), entity.getName(), entity.getSurname()));
+//            saveHistory(getClass().getName(), "insert", HistoryContent.Status.SUCCESS, new Gson().toJson(entity));
         } catch (SQLException e) {
             logger.error(e);
+//            saveHistory(getClass().getName(), "insert", HistoryContent.Status.FAULT, new Gson().toJson(entity));
         }
     }
 
@@ -95,8 +101,10 @@ public class DataProviderDB extends DataProvider {
         statement = getStatement();
         try {
             statement.execute(String.format(update, entity.getName(), entity.getSurname(), entity.getId()));
+//            saveHistory(getClass().getName(), "update", HistoryContent.Status.SUCCESS, new Gson().toJson(entity));
         } catch (SQLException e) {
             logger.error(e);
+//            saveHistory(getClass().getName(), "update", HistoryContent.Status.FAULT, new Gson().toJson(entity));
         }
     }
 
@@ -115,5 +123,14 @@ public class DataProviderDB extends DataProvider {
             logger.error(e);
         }
         return stmt;
+    }
+
+    public void clear(){
+        statement = getStatement();
+        try {
+            statement.execute(clear);
+        } catch (SQLException e) {
+            logger.error(e);
+        }
     }
 }
