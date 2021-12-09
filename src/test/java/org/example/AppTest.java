@@ -7,6 +7,7 @@ import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
+import laba3.DB.DataProviderDB;
 import laba3.DataProvider;
 import laba3.Entity;
 import laba3.csv.DataProviderCsv;
@@ -35,7 +36,7 @@ import static org.junit.Assert.assertEquals;
 public class AppTest {
     private static final Logger logger = LogManager.getLogger(AppTest.class);
 //    IDataProvider dp = new DataProviderXml();
-    DataProvider dp = new DataProviderCsv();
+    DataProvider dp = new DataProviderDB();
     /**
      * Rigorous Test :-)
      */
@@ -71,6 +72,13 @@ public class AppTest {
         dp.update(newEntity);
         Entity byId = dp.getById(newEntity.getId());
         assertEquals(newEntity, byId);
+    }
+
+    @Test
+    public void testDelete(){
+        Entity entity = new Entity("nameDelete", "surnameDelete");
+        dp.insert(entity);
+        dp.delete(entity.getId());
     }
 
 //    @Test
