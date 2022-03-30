@@ -6,7 +6,9 @@ import laba3.Entity;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Hello world!
@@ -23,6 +25,12 @@ public class App {
     }
 
     public static void main( String[] args ) {
+        User user = new User(1, "first");
+        ArrayList<User> users = new ArrayList<>();
+        users.add(user);
+        List<Integer> list = new ArrayList<>();
+        list = users.stream().map(User::getId).collect(Collectors.toList());
+        System.out.println(list);
         /*
         logger.trace("We've just greeted the user!");
         logger.debug("We've just greeted the user!");
@@ -97,5 +105,19 @@ public class App {
         logger.info("User Home Directory: " + System.getProperty("user.home"));
         logger.info("User Working Directory: " + System.getProperty("user.dir"));
         logger.info("Test INFO logging.");
+    }
+}
+
+class User {
+    int id;
+    String name;
+
+    User(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    int getId() {
+        return this.id;
     }
 }

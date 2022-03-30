@@ -9,6 +9,16 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.Date;
 import java.util.Objects;
+import com.google.gson.Gson;
+import com.mongodb.MongoCommandException;
+import com.mongodb.client.MongoClients;
+import com.mongodb.client.MongoCollection;
+import mongoDB.HistoryContent;
+import org.bson.Document;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @XmlRootElement(name = Constants.ENTITY)

@@ -1,0 +1,169 @@
+2021-11-24 14:39:05.364 [main] ERROR org.example.AppTest - Collection already exists
+2021-11-24 14:42:15.887 [main] ERROR org.example.AppTest - Collection already exists
+2021-11-24 14:49:14.927 [main] INFO  org.example.AppTest - Insert test
+2021-11-24 14:49:15.005 [main] INFO  org.example.AppTest - Collection already exists
+2021-11-24 14:49:15.235 [main] INFO  org.example.AppTest - Read test
+2021-11-24 14:50:22.232 [main] INFO  org.example.AppTest - Insert test
+2021-11-24 14:50:22.314 [main] INFO  org.example.AppTest - Collection already exists
+2021-11-24 14:50:22.519 [main] INFO  org.example.AppTest - Read test
+2021-11-24 14:50:22.534 [main] INFO  org.example.AppTest - [619e222f22f624653e4c9bfc, 1637753391437, class org.example.AppTest, 1637753391436, system, testMongo(), SUCCESS]
+2021-11-24 14:50:22.534 [main] INFO  org.example.AppTest - [619e25189b69c35f39c294a1, 1637754135893, class org.example.AppTest, 2021.11.24 14:42:15, system, testMongo(), SUCCESS]
+2021-11-24 14:50:22.534 [main] INFO  org.example.AppTest - [619e26bb62828d703db70b52, 1637754555007, class org.example.AppTest, 2021.11.24 14:49:15, system, testMongo(), SUCCESS]
+2021-11-24 14:50:22.534 [main] INFO  org.example.AppTest - [619e26fedccd47683b059244, 1637754622316, class org.example.AppTest, 2021.11.24 14:50:22, system, testMongo(), SUCCESS]
+2021-11-24 14:58:08.883 [main] INFO  org.example.AppTest - Read test
+2021-11-24 14:58:09.132 [main] INFO  org.example.AppTest - null
+2021-11-24 14:58:09.136 [main] INFO  org.example.AppTest - null
+2021-11-24 14:58:09.137 [main] INFO  org.example.AppTest - null
+2021-11-24 14:58:09.139 [main] INFO  org.example.AppTest - null
+2021-11-24 14:58:59.236 [main] INFO  org.example.AppTest - Read test
+2021-11-24 14:58:59.341 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e222f22f624653e4c9bfc"}, "id": {"$numberLong": "1637753391437"}, "className": "class org.example.AppTest", "createdDate": {"$numberLong": "1637753391436"}, "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 14:58:59.343 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e25189b69c35f39c294a1"}, "id": {"$numberLong": "1637754135893"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:42:15", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 14:58:59.343 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e26bb62828d703db70b52"}, "id": {"$numberLong": "1637754555007"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:49:15", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 14:58:59.344 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e26fedccd47683b059244"}, "id": {"$numberLong": "1637754622316"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:50:22", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:30:41.992 [main] INFO  org.example.AppTest - Read test
+2021-11-24 15:30:42.092 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e25189b69c35f39c294a1"}, "id": {"$numberLong": "1637754135893"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:42:15", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:30:42.255 [main] INFO  org.example.AppTest - null
+2021-11-24 15:30:42.258 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e26bb62828d703db70b52"}, "id": {"$numberLong": "1637754555007"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:49:15", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:30:42.258 [main] INFO  org.example.AppTest - null
+2021-11-24 15:30:42.259 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e26fedccd47683b059244"}, "id": {"$numberLong": "1637754622316"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:50:22", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:30:42.261 [main] INFO  org.example.AppTest - null
+2021-11-24 15:36:40.451 [main] INFO  org.example.AppTest - Read test
+2021-11-24 15:36:40.530 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e25189b69c35f39c294a1"}, "id": {"$numberLong": "1637754135893"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:42:15", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:36:40.530 [main] INFO  org.example.AppTest - {id": {"$numberLong": "1637754135893"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:42:15", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:36:40.711 [main] INFO  org.example.AppTest - null
+2021-11-24 15:36:40.714 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e26bb62828d703db70b52"}, "id": {"$numberLong": "1637754555007"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:49:15", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:36:40.715 [main] INFO  org.example.AppTest - {id": {"$numberLong": "1637754555007"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:49:15", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:36:40.717 [main] INFO  org.example.AppTest - null
+2021-11-24 15:36:40.719 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e26fedccd47683b059244"}, "id": {"$numberLong": "1637754622316"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:50:22", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:36:40.720 [main] INFO  org.example.AppTest - {id": {"$numberLong": "1637754622316"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:50:22", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:36:40.723 [main] INFO  org.example.AppTest - null
+2021-11-24 15:36:59.190 [main] INFO  org.example.AppTest - Read test
+2021-11-24 15:36:59.279 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e25189b69c35f39c294a1"}, "id": {"$numberLong": "1637754135893"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:42:15", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:36:59.280 [main] INFO  org.example.AppTest - {"id": {"$numberLong": "1637754135893"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:42:15", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:36:59.446 [main] INFO  org.example.AppTest - null
+2021-11-24 15:36:59.446 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e26bb62828d703db70b52"}, "id": {"$numberLong": "1637754555007"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:49:15", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:36:59.447 [main] INFO  org.example.AppTest - {"id": {"$numberLong": "1637754555007"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:49:15", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:36:59.448 [main] INFO  org.example.AppTest - null
+2021-11-24 15:36:59.448 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e26fedccd47683b059244"}, "id": {"$numberLong": "1637754622316"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:50:22", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:36:59.449 [main] INFO  org.example.AppTest - {"id": {"$numberLong": "1637754622316"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 14:50:22", "actor": "system", "methodName": "testMongo()", "status": "SUCCESS"}
+2021-11-24 15:36:59.450 [main] INFO  org.example.AppTest - null
+2021-11-24 15:37:37.327 [main] INFO  org.example.AppTest - Read test
+2021-11-24 15:37:37.554 [main] INFO  org.example.AppTest - null
+2021-11-24 15:37:37.556 [main] INFO  org.example.AppTest - null
+2021-11-24 15:37:37.563 [main] INFO  org.example.AppTest - null
+2021-11-24 15:39:57.483 [main] INFO  org.example.AppTest - Read test
+2021-11-24 15:39:57.773 [main] INFO  org.example.AppTest - null
+2021-11-24 15:39:57.776 [main] INFO  org.example.AppTest - null
+2021-11-24 15:39:57.778 [main] INFO  org.example.AppTest - null
+2021-11-24 15:43:58.171 [main] INFO  org.example.AppTest - Insert test
+2021-11-24 15:43:58.249 [main] INFO  org.example.AppTest - Collection already exists
+2021-11-24 15:44:11.173 [main] INFO  org.example.AppTest - Read test
+2021-11-24 15:44:11.462 [main] INFO  org.example.AppTest - null
+2021-11-24 16:03:11.137 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:03:11.194 [main] INFO  org.example.AppTest - [619e338e0233595a76080acf, 1637757838257, class org.example.AppTest, 2021.11.24 15:43:58, system, testCreateMongo(), SUCCESS]
+2021-11-24 16:03:28.591 [main] INFO  org.example.AppTest - Insert test
+2021-11-24 16:03:28.671 [main] INFO  org.example.AppTest - Collection already exists
+2021-11-24 16:03:36.472 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:03:36.525 [main] INFO  org.example.AppTest - [619e338e0233595a76080acf, 1637757838257, class org.example.AppTest, 2021.11.24 15:43:58, system, testCreateMongo(), SUCCESS]
+2021-11-24 16:03:36.526 [main] INFO  org.example.AppTest - [619e382070904b3a44cc0c9a, 1637759008673, class org.example.AppTest, 2021.11.24 16:03:28, system, testCreateMongo(), SUCCESS]
+2021-11-24 16:07:28.096 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:08:07.453 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:08:07.640 [main] INFO  org.example.AppTest - 619e338e0233595a76080acf
+2021-11-24 16:08:07.640 [main] INFO  org.example.AppTest - 619e382070904b3a44cc0c9a
+2021-11-24 16:08:23.585 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:08:23.653 [main] INFO  org.example.AppTest - 1637757838257
+2021-11-24 16:08:23.654 [main] INFO  org.example.AppTest - 1637759008673
+2021-11-24 16:09:25.308 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:09:25.371 [main] INFO  org.example.AppTest - [619e338e0233595a76080acf, 1637757838257, class org.example.AppTest, 2021.11.24 15:43:58, system, testCreateMongo(), SUCCESS]
+2021-11-24 16:09:25.371 [main] INFO  org.example.AppTest - [619e382070904b3a44cc0c9a, 1637759008673, class org.example.AppTest, 2021.11.24 16:03:28, system, testCreateMongo(), SUCCESS]
+2021-11-24 16:10:50.962 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:10:51.016 [main] INFO  org.example.AppTest - [619e338e0233595a76080acf, 1637757838257, class org.example.AppTest, 2021.11.24 15:43:58, system, testCreateMongo(), SUCCESS]
+2021-11-24 16:10:51.017 [main] INFO  org.example.AppTest - [619e382070904b3a44cc0c9a, 1637759008673, class org.example.AppTest, 2021.11.24 16:03:28, system, testCreateMongo(), SUCCESS]
+2021-11-24 16:19:00.932 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:19:01.245 [main] INFO  org.example.AppTest - HistoryContent{id=0, className='null', createdDate=null, actor='system', methodName='null', status=null}
+2021-11-24 16:20:25.481 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:20:25.797 [main] INFO  org.example.AppTest - HistoryContent{id=0, className='null', createdDate=null, actor='system', methodName='null', status=null}
+2021-11-24 16:31:25.596 [main] INFO  org.example.AppTest - Insert test
+2021-11-24 16:31:25.674 [main] INFO  org.example.AppTest - Collection already exists
+2021-11-24 16:33:10.148 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:35:13.036 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:35:46.770 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:35:46.877 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e382070904b3a44cc0c9a"}, "id": {"$numberLong": "1637759008673"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 16:03:28", "actor": "system", "methodName": "testCreateMongo()", "status": "SUCCESS"}
+2021-11-24 16:35:46.878 [main] INFO  org.example.AppTest - {"id": {"$numberLong": "1637759008673"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 16:03:28", "actor": "system", "methodName": "testCreateMongo()", "status": "SUCCESS"}
+2021-11-24 16:37:48.349 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:37:48.461 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e382070904b3a44cc0c9a"}, "id": {"$numberLong": "1637759008673"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 16:03:28", "actor": "system", "methodName": "testCreateMongo()", "status": "SUCCESS"}
+2021-11-24 16:37:48.462 [main] INFO  org.example.AppTest - {"id": {"$numberLong": "1637759008673"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 16:03:28", "actor": "system", "methodName": "testCreateMongo()", "status": "SUCCESS"}
+2021-11-24 16:38:22.257 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:38:22.382 [main] INFO  org.example.AppTest - {"_id": {"$oid": "619e382070904b3a44cc0c9a"}, "id": {"$numberLong": "1637759008673"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 16:03:28", "actor": "system", "methodName": "testCreateMongo()", "status": "SUCCESS"}
+2021-11-24 16:38:22.382 [main] INFO  org.example.AppTest - {"id": {"$numberLong": "1637759008673"}, "className": "class org.example.AppTest", "createdDate": "2021.11.24 16:03:28", "actor": "system", "methodName": "testCreateMongo()", "status": "SUCCESS"}
+2021-11-24 16:44:16.609 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:44:16.728 [main] INFO  org.example.AppTest - {
+  "_id": ObjectId("619e382070904b3a44cc0c9a"),
+  "id": NumberLong("1637759008673"),
+  "className": "class org.example.AppTest",
+  "createdDate": "2021.11.24 16:03:28",
+  "actor": "system",
+  "methodName": "testCreateMongo()",
+  "status": "SUCCESS"
+}
+2021-11-24 16:44:16.729 [main] INFO  org.example.AppTest - {),
+  "id": NumberLong("1637759008673"),
+  "className": "class org.example.AppTest",
+  "createdDate": "2021.11.24 16:03:28",
+  "actor": "system",
+  "methodName": "testCreateMongo()",
+  "status": "SUCCESS"
+}
+2021-11-24 16:44:16.729 [main] INFO  org.example.AppTest - {
+  "_id": ObjectId("619e3ead0365e37aaa618b28"),
+  "id": NumberLong("1637760685675"),
+  "className": "class org.example.AppTest",
+  "createdDate": "2021.11.24 16:31:25",
+  "actor": "system",
+  "methodName": "testCreateMongo()",
+  "status": "SUCCESS"
+}
+2021-11-24 16:44:16.731 [main] INFO  org.example.AppTest - {),
+  "id": NumberLong("1637760685675"),
+  "className": "class org.example.AppTest",
+  "createdDate": "2021.11.24 16:31:25",
+  "actor": "system",
+  "methodName": "testCreateMongo()",
+  "status": "SUCCESS"
+}
+2021-11-24 16:44:16.742 [main] INFO  org.example.AppTest - HistoryContent{id=0, className='null', createdDate=null, actor='system', methodName='null', status=null}
+2021-11-24 16:45:02.445 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:45:02.556 [main] INFO  org.example.AppTest - {
+  "_id": ObjectId("619e382070904b3a44cc0c9a"),
+  "id": NumberLong("1637759008673"),
+  "className": "class org.example.AppTest",
+  "createdDate": "2021.11.24 16:03:28",
+  "actor": "system",
+  "methodName": "testCreateMongo()",
+  "status": "SUCCESS"
+}
+2021-11-24 16:52:24.279 [main] INFO  org.example.AppTest - Insert test
+2021-11-24 16:52:24.357 [main] INFO  org.example.AppTest - Collection already exists
+2021-11-24 16:52:33.033 [main] INFO  org.example.AppTest - Insert test
+2021-11-24 16:52:33.103 [main] INFO  org.example.AppTest - Collection already exists
+2021-11-24 16:52:42.795 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:52:42.901 [main] INFO  org.example.AppTest - {
+  "_id": ObjectId("619e43984386cb434e9181be"),
+  "className": "class org.example.AppTest",
+  "createdDate": "2021.11.24 16:52:24",
+  "actor": "system",
+  "methodName": "testCreateMongo()",
+  "status": "SUCCESS"
+}
+2021-11-24 16:52:42.905 [main] INFO  org.example.AppTest - {
+  "_id": ObjectId("619e43a1e50faa450366d4a9"),
+  "className": "class org.example.AppTest",
+  "createdDate": "2021.11.24 16:52:33",
+  "actor": "system",
+  "methodName": "testCreateMongo()",
+  "status": "SUCCESS"
+}
+2021-11-24 16:52:42.911 [main] INFO  org.example.AppTest - HistoryContent{className='class org.example.AppTest', createdDate='2021.11.24 16:52:33', actor='system', methodName='testCreateMongo()', status=SUCCESS}
+2021-11-24 16:53:44.515 [main] INFO  org.example.AppTest - Read test
+2021-11-24 16:53:44.660 [main] INFO  org.example.AppTest - HistoryContent{className='class org.example.AppTest', createdDate='2021.11.24 16:52:24', actor='system', methodName='testCreateMongo()', status=SUCCESS}
+2021-11-24 16:53:44.661 [main] INFO  org.example.AppTest - HistoryContent{className='class org.example.AppTest', createdDate='2021.11.24 16:52:33', actor='system', methodName='testCreateMongo()', status=SUCCESS}

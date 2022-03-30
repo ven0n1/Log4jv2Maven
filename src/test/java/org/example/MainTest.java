@@ -45,9 +45,6 @@ public class MainTest {
         assertEquals(3, entities.size());
     }
 
-    @Test
-    public void negativeSelect(){
-    }
 
     @Test
     public void positiveUpdate(){

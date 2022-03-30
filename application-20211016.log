@@ -1,0 +1,28 @@
+2021-10-16 10:22:59.465 [main] ERROR DataProviderCsv - Throwing
+java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64) ~[?:?]
+	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70) ~[?:?]
+	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:266) ~[?:?]
+	at java.util.Objects.checkIndex(Objects.java:359) ~[?:?]
+	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
+	at DataProviderCsv.getById(DataProviderCsv.java:25) [classes/:?]
+	at org.example.App.main(App.java:74) [classes/:?]
+2021-10-16 10:22:59.528 [main] INFO  org.example.App - null
+2021-10-16 14:29:05.631 [main] ERROR DataProviderCsv - Throwing
+NullObjectException: entity is null
+	at DataProviderCsv.getById(DataProviderCsv.java:26) [classes/:?]
+	at org.example.App.main(App.java:74) [classes/:?]
+2021-10-16 14:29:49.434 [main] ERROR DataProviderCsv - Throwing
+NullObjectException: entity is null
+	at DataProviderCsv.getById(DataProviderCsv.java:26) [classes/:?]
+	at org.example.App.main(App.java:74) [classes/:?]
+2021-10-16 14:29:49.450 [main] INFO  org.example.App - null
+2021-10-16 14:31:21.074 [main] INFO  org.example.App - Entity{id=0, name='name 0', surname='surname 0'}
+2021-10-16 14:31:21.074 [main] INFO  org.example.App - Entity{id=1, name='name 1', surname='surname 1'}
+2021-10-16 14:31:21.074 [main] INFO  org.example.App - Entity{id=4, name='name 4', surname='surname 4'}
+2021-10-16 14:31:21.074 [main] INFO  org.example.App - Entity{id=5, name='name 5', surname='surname 5'}
+2021-10-16 14:31:21.074 [main] INFO  org.example.App - Entity{id=6, name='name 6', surname='surname 6'}
+2021-10-16 14:31:21.074 [main] INFO  org.example.App - Entity{id=7, name='name 7', surname='surname 7'}
+2021-10-16 14:31:21.074 [main] INFO  org.example.App - Entity{id=8, name='name 8', surname='surname 8'}
+2021-10-16 14:31:21.074 [main] INFO  org.example.App - Entity{id=9, name='name 9', surname='surname 9'}
+2021-10-16 14:31:21.074 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}

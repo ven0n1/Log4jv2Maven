@@ -73,10 +73,10 @@ public class DataProviderDB extends DataProvider {
         statement = getStatement();
         try {
             statement.execute(String.format(insert, entity.getId(), entity.getName(), entity.getSurname()));
-//            saveHistory(getClass().getName(), "insert", HistoryContent.Status.SUCCESS, new Gson().toJson(entity));
+            saveHistory(getClass().getName(), "insert", HistoryContent.Status.SUCCESS, new Gson().toJson(entity));
         } catch (SQLException e) {
             logger.error(e);
-//            saveHistory(getClass().getName(), "insert", HistoryContent.Status.FAULT, new Gson().toJson(entity));
+            saveHistory(getClass().getName(), "insert", HistoryContent.Status.FAULT, new Gson().toJson(entity));
         }
     }
 
@@ -101,10 +101,10 @@ public class DataProviderDB extends DataProvider {
         statement = getStatement();
         try {
             statement.execute(String.format(update, entity.getName(), entity.getSurname(), entity.getId()));
-//            saveHistory(getClass().getName(), "update", HistoryContent.Status.SUCCESS, new Gson().toJson(entity));
+            saveHistory(getClass().getName(), "update", HistoryContent.Status.SUCCESS, new Gson().toJson(entity));
         } catch (SQLException e) {
             logger.error(e);
-//            saveHistory(getClass().getName(), "update", HistoryContent.Status.FAULT, new Gson().toJson(entity));
+            saveHistory(getClass().getName(), "update", HistoryContent.Status.FAULT, new Gson().toJson(entity));
         }
     }
 

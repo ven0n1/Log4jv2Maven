@@ -1,0 +1,128 @@
+2021-10-21 14:43:39.046 [main] INFO  DataProviderCsv - [Ljava.lang.String;@6f204a1a
+2021-10-21 14:43:39.052 [main] INFO  DataProviderCsv - [Ljava.lang.String;@790da477
+2021-10-21 14:43:39.055 [main] INFO  DataProviderCsv - [Ljava.lang.String;@5c7933ad
+2021-10-21 14:43:39.059 [main] INFO  DataProviderCsv - [Ljava.lang.String;@57bc27f5
+2021-10-21 14:43:39.065 [main] INFO  DataProviderCsv - [Ljava.lang.String;@5fb759d6
+2021-10-21 14:43:39.068 [main] INFO  DataProviderCsv - [Ljava.lang.String;@4b8d604b
+2021-10-21 14:43:39.075 [main] INFO  DataProviderCsv - [Ljava.lang.String;@5e7cd6cc
+2021-10-21 14:43:39.078 [main] INFO  DataProviderCsv - [Ljava.lang.String;@68c9d179
+2021-10-21 14:43:39.079 [main] INFO  DataProviderCsv - [Ljava.lang.String;@d554c5f
+2021-10-21 14:44:05.488 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:05.497 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:05.500 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:05.507 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:05.514 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:05.519 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:05.522 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:05.524 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:05.526 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:51.662 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:51.677 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:51.677 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:51.677 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:51.693 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:51.693 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:51.693 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:51.693 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:51.709 [main] INFO  DataProviderCsv - []
+2021-10-21 14:44:51.709 [main] INFO  DataProviderCsv - []
+2021-10-21 14:45:25.630 [main] INFO  DataProviderCsv - []
+2021-10-21 14:45:25.646 [main] INFO  DataProviderCsv - []
+2021-10-21 14:45:25.646 [main] INFO  DataProviderCsv - []
+2021-10-21 14:45:25.661 [main] INFO  DataProviderCsv - []
+2021-10-21 14:45:25.661 [main] INFO  DataProviderCsv - []
+2021-10-21 14:45:25.661 [main] INFO  DataProviderCsv - []
+2021-10-21 14:45:25.661 [main] INFO  DataProviderCsv - []
+2021-10-21 14:45:25.661 [main] INFO  DataProviderCsv - []
+2021-10-21 14:45:25.677 [main] INFO  DataProviderCsv - []
+2021-10-21 14:45:25.677 [main] INFO  DataProviderCsv - []
+2021-10-21 14:56:26.546 [main] INFO  org.example.App - Entity{id=0, name='name 0', surname='surname 0'}
+2021-10-21 14:56:26.549 [main] INFO  org.example.App - Entity{id=2, name='name 2', surname='surname 2'}
+2021-10-21 14:56:26.550 [main] INFO  org.example.App - Entity{id=3, name='name 3', surname='surname 3'}
+2021-10-21 14:56:26.550 [main] INFO  org.example.App - Entity{id=4, name='name 4', surname='surname 4'}
+2021-10-21 14:56:26.550 [main] INFO  org.example.App - Entity{id=5, name='name 5', surname='surname 5'}
+2021-10-21 14:56:26.550 [main] INFO  org.example.App - Entity{id=6, name='name 6', surname='surname 6'}
+2021-10-21 14:56:26.550 [main] INFO  org.example.App - Entity{id=7, name='name 7', surname='surname 7'}
+2021-10-21 14:56:26.550 [main] INFO  org.example.App - Entity{id=8, name='name 8', surname='surname 8'}
+2021-10-21 14:56:26.551 [main] INFO  org.example.App - Entity{id=9, name='name 9', surname='surname 9'}
+2021-10-21 14:59:56.373 [main] INFO  org.example.App - Entity{id=0, name='name 0', surname='surname 0'}
+2021-10-21 14:59:56.373 [main] INFO  org.example.App - Entity{id=1, name='name 1', surname='surname 1'}
+2021-10-21 14:59:56.373 [main] INFO  org.example.App - Entity{id=2, name='name 2', surname='surname 2'}
+2021-10-21 14:59:56.373 [main] INFO  org.example.App - Entity{id=3, name='name 3', surname='surname 3'}
+2021-10-21 14:59:56.373 [main] INFO  org.example.App - Entity{id=4, name='name 4', surname='surname 4'}
+2021-10-21 14:59:56.373 [main] INFO  org.example.App - Entity{id=5, name='name 5', surname='surname 5'}
+2021-10-21 14:59:56.373 [main] INFO  org.example.App - Entity{id=6, name='name 6', surname='surname 6'}
+2021-10-21 14:59:56.373 [main] INFO  org.example.App - Entity{id=7, name='name 7', surname='surname 7'}
+2021-10-21 14:59:56.373 [main] INFO  org.example.App - Entity{id=8, name='name 8', surname='surname 8'}
+2021-10-21 14:59:56.373 [main] INFO  org.example.App - Entity{id=9, name='name 9', surname='surname 9'}
+2021-10-21 15:00:40.036 [main] INFO  org.example.App - Entity{id=1, name='name 1', surname='surname 1'}
+2021-10-21 15:00:50.939 [main] INFO  org.example.App - Entity{id=0, name='name 0', surname='surname 0'}
+2021-10-21 15:00:50.939 [main] INFO  org.example.App - Entity{id=2, name='name 2', surname='surname 2'}
+2021-10-21 15:00:50.939 [main] INFO  org.example.App - Entity{id=3, name='name 3', surname='surname 3'}
+2021-10-21 15:00:50.939 [main] INFO  org.example.App - Entity{id=4, name='name 4', surname='surname 4'}
+2021-10-21 15:00:50.939 [main] INFO  org.example.App - Entity{id=5, name='name 5', surname='surname 5'}
+2021-10-21 15:00:50.939 [main] INFO  org.example.App - Entity{id=6, name='name 6', surname='surname 6'}
+2021-10-21 15:00:50.939 [main] INFO  org.example.App - Entity{id=7, name='name 7', surname='surname 7'}
+2021-10-21 15:00:50.939 [main] INFO  org.example.App - Entity{id=8, name='name 8', surname='surname 8'}
+2021-10-21 15:00:50.939 [main] INFO  org.example.App - Entity{id=9, name='name 9', surname='surname 9'}
+2021-10-21 15:01:28.857 [main] INFO  org.example.App - Entity{id=0, name='name 0', surname='surname 0'}
+2021-10-21 15:01:28.873 [main] INFO  org.example.App - Entity{id=3, name='name 3', surname='surname 3'}
+2021-10-21 15:01:28.873 [main] INFO  org.example.App - Entity{id=4, name='name 4', surname='surname 4'}
+2021-10-21 15:01:28.873 [main] INFO  org.example.App - Entity{id=5, name='name 5', surname='surname 5'}
+2021-10-21 15:01:28.873 [main] INFO  org.example.App - Entity{id=6, name='name 6', surname='surname 6'}
+2021-10-21 15:01:28.873 [main] INFO  org.example.App - Entity{id=7, name='name 7', surname='surname 7'}
+2021-10-21 15:01:28.873 [main] INFO  org.example.App - Entity{id=8, name='name 8', surname='surname 8'}
+2021-10-21 15:01:28.873 [main] INFO  org.example.App - Entity{id=9, name='name 9', surname='surname 9'}
+2021-10-21 15:01:28.873 [main] INFO  org.example.App - Entity{id=0, name='', surname=''}
+2021-10-21 15:03:46.893 [main] INFO  org.example.App - Entity{id=0, name='name 0', surname='surname 0'}
+2021-10-21 15:03:46.896 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:04:15.642 [main] INFO  org.example.App - Entity{id=0, name='name 0', surname='surname 0'}
+2021-10-21 15:04:15.645 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:04:15.645 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:05:24.920 [main] ERROR DataProviderCsv - Throwing
+NullObjectException: entity is null
+	at DataProviderCsv.getById(DataProviderCsv.java:26) [classes/:?]
+	at DataProviderCsv.delete(DataProviderCsv.java:99) [classes/:?]
+	at DataProviderCsv.update(DataProviderCsv.java:124) [classes/:?]
+	at org.example.App.main(App.java:84) [classes/:?]
+2021-10-21 15:05:25.012 [main] INFO  org.example.App - Entity{id=0, name='name 0', surname='surname 0'}
+2021-10-21 15:05:25.012 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:05:25.013 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:05:25.013 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:07:21.236 [main] ERROR DataProviderCsv - Throwing
+NullObjectException: entity is null
+	at DataProviderCsv.getById(DataProviderCsv.java:26) [classes/:?]
+	at DataProviderCsv.delete(DataProviderCsv.java:99) [classes/:?]
+	at DataProviderCsv.update(DataProviderCsv.java:127) [classes/:?]
+	at org.example.App.main(App.java:84) [classes/:?]
+2021-10-21 15:07:21.280 [main] INFO  org.example.App - Entity{id=0, name='name 0', surname='surname 0'}
+2021-10-21 15:07:21.280 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:07:21.280 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:07:21.280 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:07:21.281 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:07:43.640 [main] ERROR DataProviderCsv - Throwing
+NullObjectException: entity is null
+	at DataProviderCsv.getById(DataProviderCsv.java:26) [classes/:?]
+	at DataProviderCsv.delete(DataProviderCsv.java:99) [classes/:?]
+	at DataProviderCsv.update(DataProviderCsv.java:127) [classes/:?]
+	at org.example.App.main(App.java:84) [classes/:?]
+2021-10-21 15:09:47.049 [main] ERROR DataProviderCsv - Throwing
+NullObjectException: entity is null
+	at DataProviderCsv.getById(DataProviderCsv.java:26) [classes/:?]
+	at DataProviderCsv.update(DataProviderCsv.java:123) [classes/:?]
+	at org.example.App.main(App.java:84) [classes/:?]
+2021-10-21 15:09:47.087 [main] INFO  org.example.App - Entity{id=0, name='name 0', surname='surname 0'}
+2021-10-21 15:09:47.091 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:09:47.091 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:09:47.091 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:09:47.091 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:09:54.446 [main] ERROR DataProviderCsv - Throwing
+NullObjectException: entity is null
+	at DataProviderCsv.getById(DataProviderCsv.java:26) [classes/:?]
+	at DataProviderCsv.update(DataProviderCsv.java:123) [classes/:?]
+	at org.example.App.main(App.java:84) [classes/:?]
+2021-10-21 15:09:54.470 [main] INFO  org.example.App - Entity{id=0, name='name 0', surname='surname 0'}
+2021-10-21 15:09:54.470 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:09:54.470 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:09:54.470 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}
+2021-10-21 15:09:54.471 [main] INFO  org.example.App - Entity{id=999, name='asdasd', surname='gjghj'}

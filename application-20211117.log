@@ -1,0 +1,57 @@
+2021-11-17 15:40:14.977 [main] INFO  org.example.AppTest - 1637152814960
+2021-11-17 15:41:42.492 [main] INFO  org.example.AppTest - 1950752086
+2021-11-17 15:42:51.055 [main] INFO  org.example.AppTest - 1
+2021-11-17 15:42:56.920 [main] INFO  org.example.AppTest - 1
+2021-11-17 15:43:25.776 [main] INFO  org.example.AppTest - -2147483648
+2021-11-17 15:43:42.367 [main] INFO  org.example.AppTest - 2147483647
+2021-11-17 15:50:31.386 [main] ERROR laba3.csv.DataProviderCsv - Catching
+laba3.NullObjectException: entity is null
+	at laba3.csv.DataProviderCsv.getById(DataProviderCsv.java:28) [classes/:?]
+	at org.example.AppTest.testUpdate(AppTest.java:57) [test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56) [junit-4.13.2.jar:4.13.2]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413) [junit-4.13.2.jar:4.13.2]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.13.2.jar:4.13.2]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235) [junit-rt.jar:?]
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54) [junit-rt.jar:?]
+2021-11-17 15:56:00.648 [main] INFO  org.example.AppTest - 1609448400000
+2021-11-17 17:23:39.483 [main] INFO  org.example.AppTest - entities
+2021-11-17 17:26:47.028 [main] INFO  org.example.AppTest - entities
+2021-11-17 17:26:47.094 [main] INFO  org.example.AppTest - 0
+2021-11-17 17:27:47.771 [main] INFO  org.example.AppTest - entities
+2021-11-17 17:27:47.893 [main] INFO  org.example.AppTest - Document{{name=admin, sizeOnDisk=40960, empty=false}}
+2021-11-17 17:27:47.893 [main] INFO  org.example.AppTest - Document{{name=config, sizeOnDisk=61440, empty=false}}
+2021-11-17 17:27:47.893 [main] INFO  org.example.AppTest - Document{{name=local, sizeOnDisk=40960, empty=false}}
+2021-11-17 17:27:47.896 [main] INFO  org.example.AppTest - admin
+2021-11-17 17:27:47.896 [main] INFO  org.example.AppTest - config
+2021-11-17 17:27:47.896 [main] INFO  org.example.AppTest - local
+2021-11-17 17:28:10.657 [main] INFO  org.example.AppTest - entities
+2021-11-17 17:33:49.888 [main] INFO  org.example.AppTest - admin
+2021-11-17 17:33:49.891 [main] INFO  org.example.AppTest - config
+2021-11-17 17:33:49.891 [main] INFO  org.example.AppTest - local
+2021-11-17 17:37:37.650 [main] INFO  org.example.AppTest - database name -> entities
+2021-11-17 17:45:48.658 [main] INFO  org.example.AppTest - Collection created successfully
+2021-11-17 17:45:48.693 [main] INFO  org.example.AppTest - RameshFadatare
+2021-11-17 17:45:48.693 [main] INFO  org.example.AppTest - TonyStark
+2021-11-17 17:45:48.693 [main] INFO  org.example.AppTest - TomCruise
+2021-11-17 17:45:48.694 [main] INFO  org.example.AppTest - AmirKhan
+2021-11-17 17:45:48.694 [main] INFO  org.example.AppTest - UmeshFadatare

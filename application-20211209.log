@@ -1,0 +1,61 @@
+2021-12-09 14:58:01.582 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLSyntaxErrorException: Unknown database 'test'
+2021-12-09 14:59:58.995 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLSyntaxErrorException: Unknown database 'test'
+2021-12-09 15:01:09.789 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLSyntaxErrorException: Unknown database 'test'
+2021-12-09 15:02:34.157 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLSyntaxErrorException: Unknown column 'nameInsert' in 'field list'
+2021-12-09 15:03:42.975 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLSyntaxErrorException: Unknown column 'nameInsert' in 'field list'
+2021-12-09 15:04:38.334 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLSyntaxErrorException: Unknown column 'nameInsert' in 'field list'
+2021-12-09 15:09:15.082 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLSyntaxErrorException: FUNCTION entity.getName does not exist
+2021-12-09 15:09:40.133 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLSyntaxErrorException: Unknown column 'a' in 'field list'
+2021-12-09 15:19:08.973 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLSyntaxErrorException: Unknown column 'nameInsert' in 'field list'
+2021-12-09 16:23:21.922 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLException: Before start of result set
+2021-12-09 16:24:33.853 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLException: Operation not allowed for a result set of type ResultSet.TYPE_FORWARD_ONLY.
+2021-12-09 16:25:24.061 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLDataException: Value '1639056323461' is outside of valid range for type java.lang.Integer
+2021-12-09 16:37:35.934 [main] INFO  org.example.AppTest - Insert test
+2021-12-09 16:37:36.173 [main] INFO  org.example.AppTest - Collection already exists
+2021-12-09 16:37:36.814 [main] INFO  org.example.AppTest - Read test
+2021-12-09 16:37:36.869 [main] INFO  org.example.AppTest - HistoryContent{className='class org.example.AppTest', createdDate='2021.11.24 16:52:24', actor='system', methodName='testCreateMongo()', status=SUCCESS}
+2021-12-09 16:37:36.871 [main] INFO  org.example.AppTest - HistoryContent{className='class org.example.AppTest', createdDate='2021.11.24 16:52:33', actor='system', methodName='testCreateMongo()', status=SUCCESS}
+2021-12-09 16:37:36.872 [main] INFO  org.example.AppTest - HistoryContent{className='class laba3.csv.DataProviderCsv', createdDate='2021.11.27 14:33:33', actor='system', methodName='getClass().getMethods().', status=SUCCESS}
+2021-12-09 16:37:36.873 [main] INFO  org.example.AppTest - HistoryContent{className='laba3.csv.DataProviderCsv', createdDate='2021.11.27 16:30:35', actor='system', methodName='save(List<Entity> entityList)', status=SUCCESS}
+2021-12-09 16:37:36.873 [main] INFO  org.example.AppTest - HistoryContent{className='laba3.csv.DataProviderCsv', createdDate='2021.11.27 16:30:35', actor='system', methodName='save(List<Entity> entityList)', status=SUCCESS}
+2021-12-09 16:37:36.874 [main] INFO  org.example.AppTest - HistoryContent{className='laba3.csv.DataProviderCsv', createdDate='2021.11.27 16:30:35', actor='system', methodName='save(List<Entity> entityList)', status=SUCCESS}
+2021-12-09 16:37:36.874 [main] INFO  org.example.AppTest - HistoryContent{className='laba3.csv.DataProviderCsv', createdDate='2021.11.27 16:30:35', actor='system', methodName='save(List<Entity> entityList)', status=SUCCESS}
+2021-12-09 16:37:36.875 [main] INFO  org.example.AppTest - HistoryContent{className='laba3.csv.DataProviderCsv', createdDate='2021.11.27 16:30:35', actor='system', methodName='save(List<Entity> entityList)', status=SUCCESS}
+2021-12-09 16:37:36.875 [main] INFO  org.example.AppTest - HistoryContent{className='laba3.csv.DataProviderCsv', createdDate='2021.11.27 16:30:35', actor='system', methodName='save(List<Entity> entityList)', status=SUCCESS}
+2021-12-09 16:37:36.875 [main] INFO  org.example.AppTest - HistoryContent{className='laba3.csv.DataProviderCsv', createdDate='2021.12.01 14:57:54', actor='system', methodName='save(List<Entity> list)', status=SUCCESS}
+2021-12-09 16:37:36.875 [main] INFO  org.example.AppTest - HistoryContent{className='laba3.csv.DataProviderCsv', createdDate='2021.12.03 08:24:40', actor='system', methodName='insert(Entity entity)', status=SUCCESS}
+2021-12-09 16:37:36.876 [main] INFO  org.example.AppTest - HistoryContent{className='class org.example.AppTest', createdDate='2021.12.09 16:37:36', actor='system', methodName='testCreateMongo()', status=SUCCESS}
+2021-12-09 17:03:57.999 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'entities.id'
+2021-12-09 17:03:58.425 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'entities.id'
+2021-12-09 17:07:29.040 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'entities.id'
+2021-12-09 17:07:29.338 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'entities.id'
+2021-12-09 17:07:29.399 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'entities.id'
+2021-12-09 17:07:29.466 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLSyntaxErrorException: Table 'q.enriries' doesn't exist
+2021-12-09 17:07:55.195 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLSyntaxErrorException: Table 'q.enriries' doesn't exist
+2021-12-09 17:10:31.624 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLException: Illegal operation on empty result set.
+2021-12-09 17:26:00.706 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'entities.id'
+2021-12-09 17:26:01.050 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'entities.id'
+2021-12-09 17:26:43.444 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'entities.id'
+2021-12-09 17:26:43.644 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'entities.id'
+2021-12-09 17:29:55.109 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'entities.id'
+2021-12-09 17:29:55.349 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'entities.id'
+2021-12-09 17:30:09.409 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'entities.id'
+2021-12-09 17:30:09.446 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'entities.id'
+2021-12-09 17:30:09.497 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'entities.id'
+2021-12-09 17:30:09.586 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'entities.id'
+2021-12-09 17:30:09.621 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'entities.id'
+2021-12-09 17:30:09.652 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'entities.id'
+2021-12-09 17:30:09.852 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'entities.id'
+2021-12-09 17:30:09.948 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'entities.id'
+2021-12-09 17:30:10.061 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'entities.id'
+2021-12-09 17:30:10.215 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'entities.id'
+2021-12-09 17:30:10.295 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'entities.id'
+2021-12-09 17:30:10.389 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'entities.id'
+2021-12-09 17:30:10.530 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'entities.id'
+2021-12-09 17:30:10.593 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'entities.id'
+2021-12-09 17:30:10.638 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'entities.id'
+2021-12-09 17:30:10.705 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'entities.id'
+2021-12-09 17:30:10.736 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '2' for key 'entities.id'
+2021-12-09 17:30:10.794 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'entities.id'
+2021-12-09 17:30:10.972 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '1' for key 'entities.id'
+2021-12-09 17:30:11.153 [main] ERROR laba3.DB.DataProviderDB - java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '3' for key 'entities.id'
